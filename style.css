@@ -3,3 +3,61 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* To Style body */
+body{
+  background:#CCDBFF;
+  color: #081b29;
+}
+
+/* 1.To Center header text */
+header{
+  text-align: center;
+}
+
+/* 2.To Center image*/
+#featured-property figure {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  width: 900px;
+}
+
+/*3.To Style navigation links */
+nav a {
+  padding: 10px ; 
+  background-color: #B0D0F0; 
+  color: blue;
+  text-decoration: underline; 
+}
+/*4.TO Update the text block */
+#featured-property p{
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#details {
+  /* if i want to prevent elements from overflowing the container */
+  overflow: hidden; 
+  /* This will Make the container a flexbox */
+  display: flex; 
+}
+
+/* 7. TO Style details section divs */
+#details > div {
+  float: left;
+  background-color: #AFCDF0; 
+  color: black; 
+  text-align: center; 
+  width: 25%; 
+  padding: 10px;
+}
+
+
+
+
